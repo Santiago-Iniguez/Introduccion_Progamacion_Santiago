@@ -3,18 +3,21 @@ import java.util.Scanner;
 public class Ejercicio_02_Cuatro_datos_producto_suma_y_media {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //Declaracion Variables
+        int datoo1, dato2, dato3, dato4, suma, producto;
+        double maediaAritmeticaL;
         // Ingresar datos
         System.out.print("Ingrese dato 1: ");
-        int dato1 = sc.nextInt();
+        dato1 = sc.nextInt();
         System.out.print("Ingrese dato 2: ");
-        int dato2 = sc.nextInt();
+        dato2 = sc.nextInt();
         System.out.print("Ingrese dato 3: ");
-        int dato3 = sc.nextInt();
+        dato3 = sc.nextInt();
         System.out.print("Ingrese dato 4: ");
-        int dato4 = sc.nextInt();
+        dato4 = sc.nextInt();
         // Calcular suma, producto y media
-        int suma = dato1 + dato2 + dato3 + dato4;
-        int producto = dato1 * dato2 * dato3 * dato4;
+        suma = dato1 + dato2 + dato3 + dato4;
+        producto = dato1 * dato2 * dato3 * dato4;
         double mediaAritmetica = suma / 4.0;
         // Mostrar resultados
         System.out.println("La suma es: " + suma);

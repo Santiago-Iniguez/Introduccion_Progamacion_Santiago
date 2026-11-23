@@ -4,7 +4,7 @@ public class Ejercicio_02_Cuatro_datos_producto_suma_y_media {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //Declaracion Variables
-        int datoo1, dato2, dato3, dato4, suma, producto;
+        int dato1, dato2, dato3, dato4, suma, producto;
         double maediaAritmeticaL;
         // Ingresar datos
         System.out.print("Ingrese dato 1: ");

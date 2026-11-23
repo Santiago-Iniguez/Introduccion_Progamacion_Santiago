@@ -1,14 +1,11 @@
-
 import java.util.Scanner;
 
 public class Ejercicio_01_Dia_de_la_semana {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         // Ingresar número
         System.out.print("Ingrese un número del 1 al 7: ");
         int numero = sc.nextInt();
-
         // Determinar día de la semana
         switch (numero) {
             case 1:
